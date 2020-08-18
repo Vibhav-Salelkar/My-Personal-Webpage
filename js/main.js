@@ -1,6 +1,4 @@
-$(document).ready(function () {
-      $('head').append('<link href="css/chrome.css" rel="stylesheet" />');
-   });
+
 
 $('.navbar a').on('click', function (e) {
       if (this.hash !== '') {
