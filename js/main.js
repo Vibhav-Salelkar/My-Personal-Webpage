@@ -1,3 +1,11 @@
+
+jQuery(function($) {
+    if (/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())) {
+        $('body').css('opacity', '1.0') 
+    }
+})
+
+
 $('.navbar a').on('click', function (e) {
       if (this.hash !== '') {
         e.preventDefault();
