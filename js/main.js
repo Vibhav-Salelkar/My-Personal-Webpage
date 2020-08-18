@@ -1,10 +1,6 @@
-
-jQuery(function($) {
-    if (/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())) {
-        $('body').css('opacity', '1.0') 
-    }
-})
-
+$(document).ready(function () {
+      $('head').append('<link href="css/chrome.css" rel="stylesheet" />');
+   });
 
 $('.navbar a').on('click', function (e) {
       if (this.hash !== '') {
