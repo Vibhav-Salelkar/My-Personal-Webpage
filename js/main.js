@@ -6,6 +6,9 @@ $('body')
 	  	}
 	  );
 
+jQuery('body').width(jQuery('body').width()+1).width('auto')
+
+
 $('.navbar a').on('click', function (e) {
       if (this.hash !== '') {
         e.preventDefault();
